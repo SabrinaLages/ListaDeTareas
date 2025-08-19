@@ -1,0 +1,60 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(51, 129, 111);
+    box-shadow: none;
+}
+
+
+body h1 {
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 25px 0;
+    color: rgb(246, 255, 188);
+}
+
+form{
+    text-align: center;
+}
+
+#todo-input{
+    background-color: aliceblue;
+    font-size: 25px;
+    height: 45px;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+form button{
+    background-color: rgba(0, 0, 0, 0.47);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    height: 50px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 8px;
+    
+}
+
+input, button{
+    border: none;  /* quita el borde predeterminado */
+}
+
+li{
+    list-style-type: none;
+    color: azure;
+    padding-left: 200px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+li button{
+    
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: brown;
+    border-radius: 5px;
+}
